@@ -28,7 +28,9 @@ public class LoginTest extends Base{
         loginPage.login();
         Set<String> parentHandles = driver.getWindowHandles();
         loginPage.clickImg();
-        // helper.switchToNewWindow(parentHandles);
+        helper.waitForNewWindow(10 , parentHandles.size());
+        helper.switchToNewWindow(parentHandles);
+        System.out.println(driver.getCurrentUrl());
     }
     @AfterMethod
     public void tearDown(){
