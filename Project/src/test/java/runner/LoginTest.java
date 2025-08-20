@@ -32,7 +32,7 @@ public class LoginTest extends Base{
         helper.switchToNewWindow(parentHandles);
         System.out.println(driver.getCurrentUrl());
         loginPage.clickOnVerify();
-        
+        loginPage.clickOnContactSeller();
     }
     @AfterMethod
     public void tearDown(){
