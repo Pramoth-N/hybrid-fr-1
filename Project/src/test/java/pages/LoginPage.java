@@ -47,4 +47,17 @@ public class LoginPage {
         helper.sendKeys(LoginPageUI.searchBox, "Business");
         helper.clickOnElement(LoginPageUI.searchIcon);
     }
+
+
+    public void clickOnSpares(){
+        helper.clickOnElement(LoginPageUI.spareParts);
+        helper.sendKeys(LoginPageUI.spareSearchBox, "37178");
+        helper.enterAction(LoginPageUI.spareSearchBox);
+        try {
+            Thread.sleep(2000);
+        } catch (Exception e) {
+            // TODO: handle exception
+            e.printStackTrace();
+        }
+    }
 }

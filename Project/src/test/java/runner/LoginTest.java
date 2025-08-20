@@ -48,6 +48,11 @@ public class LoginTest extends Base{
         helper.waitTillPageReady();
         Screenshot.captureScreenShot("business_record");
     }
+
+    @Test
+    public void spareTest(){
+        loginPage.clickOnSpares();
+    }
     @AfterMethod
     public void tearDown(){
         if(driver != null){
