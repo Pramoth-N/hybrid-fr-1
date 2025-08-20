@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-20T09:12:55 UTC" name="Surefire suite" finished-at="2025-08-20T09:13:04 UTC" duration-ms="8367">
+  <suite started-at="2025-08-20T09:16:35 UTC" name="Surefire suite" finished-at="2025-08-20T09:16:43 UTC" duration-ms="7968">
     <groups>
     </groups>
-    <test started-at="2025-08-20T09:12:55 UTC" name="Surefire test" finished-at="2025-08-20T09:13:04 UTC" duration-ms="8367">
+    <test started-at="2025-08-20T09:16:35 UTC" name="Surefire test" finished-at="2025-08-20T09:16:43 UTC" duration-ms="7968">
       <class name="runner.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:runner.LoginTest@2ddc8ecb]" started-at="2025-08-20T09:12:55 UTC" name="setUp" finished-at="2025-08-20T09:13:00 UTC" duration-ms="4444" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:runner.LoginTest@2ddc8ecb]" started-at="2025-08-20T09:16:35 UTC" name="setUp" finished-at="2025-08-20T09:16:39 UTC" duration-ms="3809" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest()[pri:0, instance:runner.LoginTest@2ddc8ecb]" started-at="2025-08-20T09:13:00 UTC" name="loginTest" finished-at="2025-08-20T09:13:04 UTC" duration-ms="3671" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:runner.LoginTest@2ddc8ecb]" started-at="2025-08-20T09:16:39 UTC" name="loginTest" finished-at="2025-08-20T09:16:43 UTC" duration-ms="3952" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:runner.LoginTest@2ddc8ecb]" started-at="2025-08-20T09:13:04 UTC" name="tearDown" finished-at="2025-08-20T09:13:04 UTC" duration-ms="189" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:runner.LoginTest@2ddc8ecb]" started-at="2025-08-20T09:16:43 UTC" name="tearDown" finished-at="2025-08-20T09:16:43 UTC" duration-ms="126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

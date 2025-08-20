@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
 
 import pages.LoginPage;
 import utils.Base;
+import utils.Screenshot;
 import utils.WebDriverHelper;
 
 public class LoginTest extends Base{
@@ -33,6 +34,7 @@ public class LoginTest extends Base{
         System.out.println(driver.getCurrentUrl());
         loginPage.clickOnVerify();
         loginPage.clickOnContactSeller();
+        Screenshot.captureScreenShot("agronetto_screenshot");
     }
     @AfterMethod
     public void tearDown(){
