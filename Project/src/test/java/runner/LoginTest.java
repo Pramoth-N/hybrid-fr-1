@@ -31,6 +31,8 @@ public class LoginTest extends Base{
         helper.waitForNewWindow(10 , parentHandles.size());
         helper.switchToNewWindow(parentHandles);
         System.out.println(driver.getCurrentUrl());
+        loginPage.clickOnVerify();
+        
     }
     @AfterMethod
     public void tearDown(){

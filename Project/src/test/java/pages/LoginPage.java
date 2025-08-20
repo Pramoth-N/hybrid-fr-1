@@ -19,17 +19,15 @@ public class LoginPage {
 
     public void clickImg(){
         helper.waitForElementToBeVisible(LoginPageUI.image , 15);
-        // try {
-        //     Thread.sleep(2000);
-        // } catch (InterruptedException e) {
-        //     e.printStackTrace();
-        // }
         helper.clickOnElement(LoginPageUI.image);
-        // try {
-        //     Thread.sleep(2000);
-        // } catch (InterruptedException e) {
-        //     e.printStackTrace();
-        // }
+    }
+
+    public void clickOnVerify(){
+        helper.clickOnElement(LoginPageUI.verifyAnchor);
     }
     
+    public void clickOnContactSeller(){
+        helper.waitForElementToBeVisible(LoginPageUI.contactSeller, 15);
+        helper.clickOnElement(LoginPageUI.contactSeller);
+    }
 }
