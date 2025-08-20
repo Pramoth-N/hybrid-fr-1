@@ -2,44 +2,44 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-20T18:16:41 UTC" name="Surefire suite" finished-at="2025-08-20T18:17:10 UTC" duration-ms="28627">
+  <suite started-at="2025-08-20T18:30:33 UTC" name="Surefire suite" finished-at="2025-08-20T18:31:06 UTC" duration-ms="32874">
     <groups>
     </groups>
-    <test started-at="2025-08-20T18:16:41 UTC" name="Surefire test" finished-at="2025-08-20T18:17:10 UTC" duration-ms="28627">
+    <test started-at="2025-08-20T18:30:33 UTC" name="Surefire test" finished-at="2025-08-20T18:31:06 UTC" duration-ms="32874">
       <class name="runner.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:runner.LoginTest@47542153]" started-at="2025-08-20T18:16:41 UTC" name="setUp" finished-at="2025-08-20T18:16:45 UTC" duration-ms="3609" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:runner.LoginTest@47542153]" started-at="2025-08-20T18:30:33 UTC" name="setUp" finished-at="2025-08-20T18:30:37 UTC" duration-ms="4260" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="spareTest()[pri:0, instance:runner.LoginTest@47542153]" started-at="2025-08-20T18:16:45 UTC" name="spareTest" finished-at="2025-08-20T18:16:50 UTC" duration-ms="5502" status="PASS">
+        <test-method signature="spareTest()[pri:0, instance:runner.LoginTest@47542153]" started-at="2025-08-20T18:30:37 UTC" name="spareTest" finished-at="2025-08-20T18:30:43 UTC" duration-ms="6054" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- spareTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:runner.LoginTest@47542153]" started-at="2025-08-20T18:16:50 UTC" name="tearDown" finished-at="2025-08-20T18:16:50 UTC" duration-ms="75" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:runner.LoginTest@47542153]" started-at="2025-08-20T18:30:43 UTC" name="tearDown" finished-at="2025-08-20T18:30:43 UTC" duration-ms="75" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:runner.LoginTest@47542153]" started-at="2025-08-20T18:16:50 UTC" name="setUp" finished-at="2025-08-20T18:16:54 UTC" duration-ms="3336" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:runner.LoginTest@47542153]" started-at="2025-08-20T18:30:43 UTC" name="setUp" finished-at="2025-08-20T18:30:47 UTC" duration-ms="3705" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest()[pri:1, instance:runner.LoginTest@47542153]" started-at="2025-08-20T18:16:54 UTC" name="loginTest" finished-at="2025-08-20T18:16:57 UTC" duration-ms="3514" status="PASS">
+        <test-method signature="loginTest()[pri:1, instance:runner.LoginTest@47542153]" started-at="2025-08-20T18:30:47 UTC" name="loginTest" finished-at="2025-08-20T18:30:50 UTC" duration-ms="3664" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:runner.LoginTest@47542153]" started-at="2025-08-20T18:16:57 UTC" name="tearDown" finished-at="2025-08-20T18:16:57 UTC" duration-ms="98" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:runner.LoginTest@47542153]" started-at="2025-08-20T18:30:50 UTC" name="tearDown" finished-at="2025-08-20T18:30:51 UTC" duration-ms="74" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:runner.LoginTest@47542153]" started-at="2025-08-20T18:16:57 UTC" name="setUp" finished-at="2025-08-20T18:17:01 UTC" duration-ms="3440" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:runner.LoginTest@47542153]" started-at="2025-08-20T18:30:51 UTC" name="setUp" finished-at="2025-08-20T18:30:54 UTC" duration-ms="3133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="blogTest()[pri:2, instance:runner.LoginTest@47542153]" started-at="2025-08-20T18:17:01 UTC" name="blogTest" finished-at="2025-08-20T18:17:10 UTC" duration-ms="8875" status="PASS">
+        <test-method signature="blogTest()[pri:2, instance:runner.LoginTest@47542153]" started-at="2025-08-20T18:30:54 UTC" name="blogTest" finished-at="2025-08-20T18:31:05 UTC" duration-ms="11766" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- blogTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:runner.LoginTest@47542153]" started-at="2025-08-20T18:17:10 UTC" name="tearDown" finished-at="2025-08-20T18:17:10 UTC" duration-ms="103" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:runner.LoginTest@47542153]" started-at="2025-08-20T18:31:05 UTC" name="tearDown" finished-at="2025-08-20T18:31:06 UTC" duration-ms="98" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
