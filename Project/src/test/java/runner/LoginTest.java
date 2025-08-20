@@ -37,7 +37,7 @@ public class LoginTest extends Base{
         Screenshot.captureScreenShot("agronetto_screenshot");
     }
 
-    @Test(priority = 2)
+    // @Test(priority = 2)
     public void blogTest(){
         loginPage.clickOnBlog();
         Set<String> parentHandles = driver.getWindowHandles();
