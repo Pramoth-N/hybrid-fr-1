@@ -16,5 +16,5 @@ public class LoginPageUI {
     public static By spareSearchBox = By.name("spcid");
 
     public static By sortFilter = By.cssSelector(".current.sl-orders-select__current");
-    public static By sort
+    public static By sortPriceAsc = By.xpath("//div[@class = 'sort-dropdown-container']//span[text()='Least expensive on top']");
 }

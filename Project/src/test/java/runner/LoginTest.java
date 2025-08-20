@@ -52,6 +52,7 @@ public class LoginTest extends Base{
     @Test
     public void spareTest(){
         loginPage.clickOnSpares();
+        loginPage.sortByPrice();
     }
     @AfterMethod
     public void tearDown(){

@@ -54,15 +54,18 @@ public class LoginPage {
         helper.clickOnElement(LoginPageUI.spareParts);
         helper.sendKeys(LoginPageUI.spareSearchBox, "37178");
         helper.enterAction(LoginPageUI.spareSearchBox);
+    }
+    
+    public void sortByPrice(){
+        
+        helper.clickOnElement(LoginPageUI.sortFilter);
+        helper.waitForElementToBeVisible(LoginPageUI.sortPriceAsc , 5);
+        helper.clickOnElement(LoginPageUI.sortPriceAsc);
         try {
             Thread.sleep(2000);
         } catch (Exception e) {
             // TODO: handle exception
             e.printStackTrace();
         }
-    }
-
-    public void sortByPrice(){
-        
     }
 }
