@@ -16,5 +16,9 @@ public class LoginPage {
     public void login(){
         helper.clickOnElement(LoginPageUI.signInBtn);
     }
+
+    public void clickImg(){
+        helper.click
+    }
     
 }
