@@ -14,4 +14,7 @@ public class LoginPageUI {
     public static By searchBox = By.className("search_field");
     public static By spareParts = By.cssSelector("div[data-id='spares']");
     public static By spareSearchBox = By.name("spcid");
+
+    public static By sortFilter = By.cssSelector(".current.sl-orders-select__current");
+    public static By sort
 }

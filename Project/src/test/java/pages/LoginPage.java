@@ -61,4 +61,8 @@ public class LoginPage {
             e.printStackTrace();
         }
     }
+
+    public void sortByPrice(){
+        
+    }
 }
