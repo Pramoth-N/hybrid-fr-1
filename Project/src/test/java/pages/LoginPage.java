@@ -47,4 +47,9 @@ public class LoginPage {
         helper.sendKeys(LoginPageUI.searchBox, "Business");
         helper.clickOnElement(LoginPageUI.searchIcon);
     }
+
+
+    public void clickOnSpares(){
+        helper.clickOnElement(LoginPageUI.spae)
+    }
 }

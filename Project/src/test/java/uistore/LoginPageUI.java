@@ -12,4 +12,5 @@ public class LoginPageUI {
     public static By constructionBlog = By.cssSelector(".project-list__wrap > ul > li:nth-child(2) > a");
     public static By searchIcon = By.cssSelector(".search_submit.trx_addons_icon-search");
     public static By searchBox = By.className("search_field");
+    public static By spareParts = By.cssSelector("div[data-id='spares']");
 }
