@@ -44,6 +44,7 @@ public class LoginPage {
     public void searchBusiness(){
         helper.clickOnElement(LoginPageUI.searchIcon);
         helper.waitForElementToBeVisible(LoginPageUI.searchBox, 5);
-        
+        helper.sendKeys(LoginPageUI.searchBox, "Business");
+        helper.clickOnElement(LoginPageUI.searchIcon);
     }
 }

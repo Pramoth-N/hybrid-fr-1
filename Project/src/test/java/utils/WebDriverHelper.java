@@ -28,6 +28,14 @@ public class WebDriverHelper {
             e.printStackTrace();
         }
     }
+
+    public void waitTillPageReady(){
+        try () {
+            new WebDriverWait(driver , Duration.ofSeconds(15)).until(d -> ((JavascriptExecutor)d).executeScript("return document.readyState").equals("complete"));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
     public void waitForNewWindow(int timeout , int size){
         try {
             new WebDriverWait(driver, Duration.ofSeconds(timeout)).until(d -> d.getWindowHandles().size() > size);
@@ -89,7 +97,6 @@ public class WebDriverHelper {
             e.printStackTrace();
         }
     }
-
     public void switchToNewWindow(Set<String> parent) {
         try {
             Set<String> windowHandles = driver.getWindowHandles();

@@ -44,6 +44,7 @@ public class LoginTest extends Base{
         loginPage.clickOnBlodAbout();
         helper.waitForNewWindow(10 , parentHandles.size());
         helper.switchToNewWindow(parentHandles);
+        loginPage.searchBusiness();
     }
     @AfterMethod
     public void tearDown(){
