@@ -18,7 +18,7 @@ public class LoginPage {
     }
 
     public void clickImg(){
-        helper.click
+        helper.clickOnElement(LoginPageUI.image);
     }
     
 }

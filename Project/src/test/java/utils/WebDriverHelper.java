@@ -82,11 +82,11 @@ public class WebDriverHelper {
         }
     }
 
-    public void switchToNewWindow() {
+    public void switchToNewWindow(Set<String> parent) {
         try {
             Set<String> windowHandles = driver.getWindowHandles();
             for (String windowHandle : windowHandles) {
-                if (!windowHandle.isEmpty()) {
+                if (!parent.contains(windowHandle)) {
                     driver.switchTo().window(windowHandle);
                 } else {
                     throw new Exception("New window could not be retrieved");
