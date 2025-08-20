@@ -28,6 +28,7 @@ public class WebDriverHelper {
             e.printStackTrace();
         }
     }
+    pu
 
     public void clickOnElement(By locator) {
         try {
@@ -88,8 +89,6 @@ public class WebDriverHelper {
             for (String windowHandle : windowHandles) {
                 if (!parent.contains(windowHandle)) {
                     driver.switchTo().window(windowHandle);
-                } else {
-                    throw new Exception("New window could not be retrieved");
                 }
             }
         } catch (Exception e) {
