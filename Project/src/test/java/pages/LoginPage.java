@@ -38,6 +38,7 @@ public class LoginPage {
 
     public void clickOnBlodAbout(){
         helper.hoverOverElement(LoginPageUI.dropDown);
+        helper.waitForElementToBeVisible(LoginPageUI.constructionBlog , 5);
         helper.clickOnElement(LoginPageUI.constructionBlog);
     }
 
