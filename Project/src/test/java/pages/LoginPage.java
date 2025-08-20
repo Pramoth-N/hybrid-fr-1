@@ -30,4 +30,14 @@ public class LoginPage {
         helper.waitForElementToBeVisible(LoginPageUI.contactSeller, 15);
         helper.clickOnElement(LoginPageUI.contactSeller);
     }
+
+
+    public void clickOnBlog(){
+        helper.clickOnElement(LoginPageUI.blog);
+    }
+
+    public void clickOnBlodAbout(){
+        helper.hoverOverElement(LoginPageUI.dropDown);
+        
+    }
 }
