@@ -28,7 +28,14 @@ public class WebDriverHelper {
             e.printStackTrace();
         }
     }
-    pu
+    public void waitForNewWindow(int timeout , int size){
+        try {
+            new WebDriverWait(driver, Duration.ofSeconds(timeout)).until(d -> d.getWindowHandles().size() > size);
+        } catch (Exception e) {
+            // Handle or rethrow the exception here
+            e.printStackTrace();
+        }
+    }
 
     public void clickOnElement(By locator) {
         try {
