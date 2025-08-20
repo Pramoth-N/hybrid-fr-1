@@ -36,6 +36,15 @@ public class LoginTest extends Base{
         loginPage.clickOnContactSeller();
         Screenshot.captureScreenShot("agronetto_screenshot");
     }
+
+    @Test
+    public void blogTest(){
+        loginPage.clickOnBlog();
+        Set<String> parentHandles = driver.getWindowHandles();
+        loginPage.clickOnBlodAbout();
+        helper.waitForNewWindow(10 , parentHandles.size());
+        helper.switchToNewWindow(parentHandles);
+    }
     @AfterMethod
     public void tearDown(){
         if(driver != null){

@@ -38,6 +38,12 @@ public class LoginPage {
 
     public void clickOnBlodAbout(){
         helper.hoverOverElement(LoginPageUI.dropDown);
+        helper.clickOnElement(LoginPageUI.constructionBlog);
+    }
+
+    public void searchBusiness(){
+        helper.clickOnElement(LoginPageUI.searchIcon);
+        helper.waitForElementToBeVisible(LoginPageUI.searchBox, 5);
         
     }
 }
