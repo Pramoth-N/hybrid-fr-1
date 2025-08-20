@@ -30,7 +30,7 @@ public class WebDriverHelper {
     }
 
     public void waitTillPageReady(){
-        try () {
+        try{
             new WebDriverWait(driver , Duration.ofSeconds(15)).until(d -> ((JavascriptExecutor)d).executeScript("return document.readyState").equals("complete"));
         } catch (Exception e) {
             e.printStackTrace();

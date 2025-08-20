@@ -46,7 +46,7 @@ public class LoginTest extends Base{
         helper.switchToNewWindow(parentHandles);
         loginPage.searchBusiness();
         helper.waitTillPageReady();
-        Screenshot.captureScreenShot("Business_record");
+        Screenshot.captureScreenShot("business_record");
     }
     @AfterMethod
     public void tearDown(){
