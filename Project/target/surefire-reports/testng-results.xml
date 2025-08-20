@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-20T09:54:01 UTC" name="Surefire suite" finished-at="2025-08-20T09:54:22 UTC" duration-ms="21212">
+  <suite started-at="2025-08-20T09:56:13 UTC" name="Surefire suite" finished-at="2025-08-20T09:56:35 UTC" duration-ms="22225">
     <groups>
     </groups>
-    <test started-at="2025-08-20T09:54:01 UTC" name="Surefire test" finished-at="2025-08-20T09:54:22 UTC" duration-ms="21212">
+    <test started-at="2025-08-20T09:56:13 UTC" name="Surefire test" finished-at="2025-08-20T09:56:35 UTC" duration-ms="22225">
       <class name="runner.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:runner.LoginTest@229d10bd]" started-at="2025-08-20T09:54:01 UTC" name="setUp" finished-at="2025-08-20T09:54:05 UTC" duration-ms="3983" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:runner.LoginTest@229d10bd]" started-at="2025-08-20T09:56:13 UTC" name="setUp" finished-at="2025-08-20T09:56:17 UTC" duration-ms="3877" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="blogTest()[pri:0, instance:runner.LoginTest@229d10bd]" started-at="2025-08-20T09:54:05 UTC" name="blogTest" finished-at="2025-08-20T09:54:15 UTC" duration-ms="10022" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- blogTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:runner.LoginTest@229d10bd]" started-at="2025-08-20T09:54:15 UTC" name="tearDown" finished-at="2025-08-20T09:54:15 UTC" duration-ms="79" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:runner.LoginTest@229d10bd]" started-at="2025-08-20T09:54:15 UTC" name="setUp" finished-at="2025-08-20T09:54:18 UTC" duration-ms="3090" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="loginTest()[pri:0, instance:runner.LoginTest@229d10bd]" started-at="2025-08-20T09:54:18 UTC" name="loginTest" finished-at="2025-08-20T09:54:22 UTC" duration-ms="3932" status="PASS">
+        <test-method signature="loginTest()[pri:1, instance:runner.LoginTest@229d10bd]" started-at="2025-08-20T09:56:17 UTC" name="loginTest" finished-at="2025-08-20T09:56:21 UTC" duration-ms="3640" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:runner.LoginTest@229d10bd]" started-at="2025-08-20T09:54:22 UTC" name="tearDown" finished-at="2025-08-20T09:54:22 UTC" duration-ms="75" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:runner.LoginTest@229d10bd]" started-at="2025-08-20T09:56:21 UTC" name="tearDown" finished-at="2025-08-20T09:56:21 UTC" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:runner.LoginTest@229d10bd]" started-at="2025-08-20T09:56:21 UTC" name="setUp" finished-at="2025-08-20T09:56:24 UTC" duration-ms="3002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="blogTest()[pri:2, instance:runner.LoginTest@229d10bd]" started-at="2025-08-20T09:56:24 UTC" name="blogTest" finished-at="2025-08-20T09:56:35 UTC" duration-ms="11497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blogTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:runner.LoginTest@229d10bd]" started-at="2025-08-20T09:56:35 UTC" name="tearDown" finished-at="2025-08-20T09:56:35 UTC" duration-ms="99" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
