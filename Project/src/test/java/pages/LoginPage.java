@@ -3,6 +3,7 @@ package pages;
 import org.openqa.selenium.WebDriver;
 
 import uistore.LoginPageUI;
+import utils.LoggerHandler;
 import utils.WebDriverHelper;
 
 public class LoginPage {
@@ -15,6 +16,7 @@ public class LoginPage {
 
     public void login(){
         helper.clickOnElement(LoginPageUI.signInBtn);
+        LoggerHandler.info("Clicked on Signin Button");
     }
 
     public void clickImg(){
@@ -57,7 +59,7 @@ public class LoginPage {
     }
     
     public void sortByPrice(){
-        
+
         helper.clickOnElement(LoginPageUI.sortFilter);
         helper.waitForElementToBeVisible(LoginPageUI.sortPriceAsc , 5);
         helper.clickOnElement(LoginPageUI.sortPriceAsc);
